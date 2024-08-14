@@ -1,8 +1,14 @@
-# React + Vite
+## Advice Generator App
+## Tech Stack - React + vite, TailwindCss, DaisyUI, Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### This is very simple beginner friendly project 
+#### Guide :
+    1) Set Up Vite Project with react with js and tailwind css
+    2) In App component use this API - 
+    ```
+    https://api.adviceslip.com/advice
+    ```
+    3) we can use hook or simple function for onClick event 
+    4) based on click it should fetch an advice form that api response
+    5) additionally i added a loading state for better user understanding
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
